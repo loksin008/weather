@@ -3,14 +3,14 @@
 # Define variables
 API_KEY="ffeee448978755ec1c97e9b0f7a18006"  
 CITY="lucknow"   
-URL="http://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=$API_KEY&units=metric"
+URL="http://api.openweathermap.org/data/2.5/weather?q=$LUCKNOW&appid=$ffeee448978755ec1c97e9b0f7a18006&units=metric"
 
 # Fetch weather data
 response=$(curl -s $URL)
 
 
 if [[ $(echo $response | jq -r '.cod') -ne 200 ]]; then
-    echo "Failed to retrieve weather data."
+    echo "Failed to retrieve weather data lokesh."
     exit 
 fi
 
