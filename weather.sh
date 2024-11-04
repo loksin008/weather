@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Define variables
-API_KEY="your_api_key"  # Replace with your OpenWeatherMap API key
-CITY="your_city"         # Replace with your desired city
+API_KEY="ffeee448978755ec1c97e9b0f7a18006"  
+CITY="lucknow"   
 URL="http://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=$API_KEY&units=metric"
 
 # Fetch weather data
 response=$(curl -s $URL)
 
-# Check if the response is successful
+
 if [[ $(echo $response | jq -r '.cod') -ne 200 ]]; then
     echo "Failed to retrieve weather data."
-    exit 1
+    exit 
 fi
 
 # Parse the JSON response
