@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Define variables
-API_KEY="ffeee448978755ec1c97e9b0f7a18006"  
+API_KEY="f750e5d21b5d7c2414fac20f3183071f"  
 CITY="lucknow"   
-URL="http://api.openweathermap.org/data/2.5/weather?q=$LUCKNOW&appid=$ffeee448978755ec1c97e9b0f7a18006&units=metric"
+URL="http://api.openweathermap.org/data/2.5/weather?q=$CITY&appid=$API_KEY&units=metric"
 
 # Fetch weather data
 response=$(curl -s $URL)
