@@ -4,10 +4,10 @@
 API_KEY="f750e5d21b5d7c2414fac20f3183071f"
 
 # API URL
-API_URL="https://api.openweathermap.org/data/3.0/onecall"
+API_URL="https://openweathermap.org/api/one-call-3"
 
-# List of popular cities in India
-CITIES=("Bahraich" "Mumbai" "Delhi" "Bangalore" "Chennai" "Kolkata" "Hyderabad" "Ahmedabad" "Pune" "Jaipur" "Surat" "Lucknow" "Kanpur" "Nagpur" "Indore" "Patna" "Vadodara")
+# List of cities in Uttar Pradesh (you can add more cities if needed)
+CITIES=("Agra" "Aligarh" "Allahabad" "Ambedkar Nagar" "Amroha" "Auraiya" "Azamgarh" "Baghpat" "Bahraich" "Balia" "Balrampur" "Banda" "Barabanki" "Bareilly" "Bijnor" "Budaun" "Bulandshahr" "Chandauli" "Chitrakoot" "Deoria" "Etah" "Etawah" "Farrukhabad" "Fatehpur" "Firozabad" "Gautam Buddh Nagar" "Ghazipur" "Gonda" "Hamirpur" "Hapur" "Hardoi" "Hathras" "Jalaun" "Jaunpur" "Jhansi" "Kannauj" "Kanpur" "Kushinagar" "Lakhimpur Kheri" "Lalitpur" "Lucknow" "Mau" "Meerut" "Mirzapur" "Moradabad" "Muzaffarnagar" "Pratapgarh" "Raebareli" "Rampur" "Saharanpur" "Sant Kabir Nagar" "Shahjahanpur" "Shravasti" "Sultanpur" "Unnao" "Varanasi")
 
 # Display list of cities for the user to select
 echo "Select a city from the list:"
