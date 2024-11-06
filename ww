@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # Replace this with a Hindi radio stream URL
-RADIO_URL="https://www.radio.net/"
+RADIO_URL="https://www.radio.net/s/banda933"
 
 # Check if mpv or vlc is installed, and use the available player
 if command -v mpv &> /dev/null
 then
     echo "Playing Hindi FM Radio with mpv..."
-    mpv --no-video "$https://www.radio.net/"
+    mpv --no-video "$https://www.radio.net/s/banda933"
 elif command -v cvlc &> /dev/null
 then
     echo "Playing Hindi FM Radio with VLC..."
-    cvlc "$https://www.radio.net/" --no-video
+    cvlc "$RADIO_URL" --no-video
 else
     echo "Please install mpv or vlc to play the radio stream."
     exit 1
