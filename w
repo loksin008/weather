@@ -4,7 +4,7 @@
 API_KEY="f750e5d21b5d7c2414fac20f3183071f"
 
 # API URL
-API_URL="https://home.openweathermap.org/api_keys"
+API_URL="https://api.openweathermap.org/data/3.0/onecall"
 
 # List of popular cities in India
 CITIES=("Bahraich" "Mumbai" "Delhi" "Bangalore" "Chennai" "Kolkata" "Hyderabad" "Ahmedabad" "Pune" "Jaipur" "Surat" "Lucknow" "Kanpur" "Nagpur" "Indore" "Patna" "Vadodara")
