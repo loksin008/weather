@@ -1,0 +1,64 @@
+#!/bin/bash
+
+# Indian Train Enquiry System
+
+# Function to display menu options
+show_menu() {
+    echo "==============================="
+    echo " Indian Train Enquiry System "
+    echo "==============================="
+    echo "1. Train Availability"
+    echo "2. Train Schedule"
+    echo "3. Train Route"
+    echo "4. Exit"
+    echo "Please choose an option (1-4):"
+}
+
+# Function to check Train Availability (dummy)
+check_availability() {
+    echo "Enter Train Number:"
+    read train_number
+    echo "Checking availability for train number $train_number..."
+    echo "Train $train_number is available. Have a safe journey!"
+}
+
+# Function to show Train Schedule (dummy)
+show_schedule() {
+    echo "Enter Train Number:"
+    read train_number
+    echo "Fetching schedule for train number $train_number..."
+    echo "Train $train_number departs at 10:00 AM from New Delhi and arrives at 6:00 PM at Lucknow."
+}
+
+# Function to show Train Route (dummy)
+show_route() {
+    echo "Enter Train Number:"
+    read train_number
+    echo "Fetching route details for train number $train_number..."
+    echo "Train $train_number travels from New Delhi to Lucknow via Kanpur, Agra, and Etawah."
+}
+
+# Main logic for the menu
+while true; do
+    show_menu
+    read option
+
+    case $option in
+        1)
+            check_availability
+            ;;
+        2)
+            show_schedule
+            ;;
+        3)
+            show_route
+            ;;
+        4)
+            echo "Exiting the system. Thank you!"
+            break
+            ;;
+        *)
+            echo "Invalid option, please try again."
+            ;;
+    esac
+done
