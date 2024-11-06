@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Replace this with a Hindi radio stream URL
-RADIO_URL="https://onlineradiofm.in/stations/mirchi"
+RADIO_URL="http://64.71.79.181:5124/"
 
 # Check if mpv or vlc is installed, and use the available player
 if command -v mpv &> /dev/null
