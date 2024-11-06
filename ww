@@ -7,11 +7,11 @@ RADIO_URL="https://www.radio.net/"
 if command -v mpv &> /dev/null
 then
     echo "Playing Hindi FM Radio with mpv..."
-    mpv --no-video "$RADIO_URL"
+    mpv --no-video "$https://www.radio.net/"
 elif command -v cvlc &> /dev/null
 then
     echo "Playing Hindi FM Radio with VLC..."
-    cvlc "$RADIO_URL" --no-video
+    cvlc "$https://www.radio.net/" --no-video
 else
     echo "Please install mpv or vlc to play the radio stream."
     exit 1
