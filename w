@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # API Key from OpenWeatherMap
-API_KEY="your_api_key_here"
+API_KEY="f750e5d21b5d7c2414fac20f3183071f"
 
 # API URL
-API_URL="http://api.openweathermap.org/data/2.5/weather"
+API_URL="https://home.openweathermap.org/api_keys"
 
 # List of popular cities in India
-CITIES=("Mumbai" "Delhi" "Bangalore" "Chennai" "Kolkata" "Hyderabad" "Ahmedabad" "Pune" "Jaipur" "Surat" "Lucknow" "Kanpur" "Nagpur" "Indore" "Patna" "Vadodara")
+CITIES=("Bahraich" "Mumbai" "Delhi" "Bangalore" "Chennai" "Kolkata" "Hyderabad" "Ahmedabad" "Pune" "Jaipur" "Surat" "Lucknow" "Kanpur" "Nagpur" "Indore" "Patna" "Vadodara")
 
 # Display list of cities for the user to select
 echo "Select a city from the list:"
